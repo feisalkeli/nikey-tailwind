@@ -7,8 +7,12 @@ const ServiceCard = ({ ...service }) => {
       <div className="w-11 h-11 bg-coral-red rounded-full flex justify-center items-center">
         <img src={service.imgURL} alt={service.label} width={24} height={24} />
       </div>
-      <h3>{service.label}</h3>
-      <p>{service.subtext}</p>
+      <h3 className="mt-5 text-3xl font-palanquin font-bold leading-normal">
+        Lorem ipsum dolor sit amet.
+      </h3>
+      <p className="font-montserrat mt-3 break-words leading-normal text-slate-gray">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit?
+      </p>
     </div>
   );
 };
