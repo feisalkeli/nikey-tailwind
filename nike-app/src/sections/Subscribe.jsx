@@ -12,11 +12,10 @@ const Subscribe = () => {
       </h3>
       <div className="flex max-sm:flex-col items-center lg:max-w-[40% ]  gap-5 sm:border sm:border-slate-gray rounded-full">
         <input type="text" placeholder="subscribe@nike.com" className="input" />
-        <div className="flex max-sm:justify-end items-center max-sm:w-full">
-          <button className="bg-coral-red flex justify-center sm:flex-col  p-3 px-6 rounded-full tex-white sm:w-auto sm:">
-            Sign Up
-          </button>
-        </div>
+        <button className="bg-coral-red flex justify-center sm:flex-col  p-3 px-6 rounded-full tex-white lg:w-full sm:w-auto mr-0">
+          Sign Up
+        </button>
+        <div className="flex max-sm:justify-end items-center max-sm:w-full"></div>
       </div>
     </section>
   );
